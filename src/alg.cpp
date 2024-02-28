@@ -20,19 +20,10 @@ uint64_t nPrime(uint64_t n) {
             count++;
         }
         if (count < n) {
-            i+ = + 2;
+            i += 2;
         }
     }
     return i;
-}
-
-uint64_t nextPrime(uint64_t value) {
-    while (1) {
-        value++;
-        if (checkPrime(value) == 1) {
-            return value;
-        }
-    }
 }
 
 uint64_t nextPrime(uint64_t value) {
